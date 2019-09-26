@@ -10,10 +10,15 @@
     background: -webkit-linear-gradient(to bottom, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .avatar-img {
-    height: 250px;
+    height: 200px;
     padding-top: 5em;
 }
 
@@ -51,6 +56,7 @@
 }
 
 .social-links i{
+
     color: white;
     font-size: 5em;
     padding: 8px;
